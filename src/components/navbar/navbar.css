@@ -11,6 +11,12 @@
 .logo{
     height: 100%;
 }
+.mobile_logo{
+  display: none;
+}
+.mobile_menu{
+  display: none;
+}
 img{
     height: 100%;
 }
@@ -70,4 +76,13 @@ input:focus{
   .person_image{
     border-radius: 100%;
     cursor: pointer;
+  }
+  @media screen and (max-width:600px) {
+    .icon,.logo{
+      display: none;
+    }
+    .mobile_logo,.mobile_menu{
+      display: flex;
+      align-items: center;
+    }
   }

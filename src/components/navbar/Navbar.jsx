@@ -4,6 +4,8 @@ import "./navbar.css";
 import { BsSearch } from "react-icons/bs";
 import { BiHelpCircle } from "react-icons/bi";
 import { CgScreen } from "react-icons/cg";
+import { HiMenu } from "react-icons/hi";
+
 import Popup from 'reactjs-popup';
 
 const Navbar = () => {
@@ -12,13 +14,18 @@ const Navbar = () => {
             <div className="logo">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/Stack_Overflow_logo.svg" alt="" />
             </div>
+            <div className="mobile_menu">
+                <HiMenu size={20}/>
+            </div>
+            <div className="mobile_logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg" alt="" />
+            </div>
             <div className="search_bar">
                 <input type="text" placeholder='Search'/>
                 <div className="search_icon">
                     <BsSearch />
                 </div>
             </div>
-
             <div className="icon">
                 <BiHelpCircle size={20} /><div>Help</div>
             </div>
