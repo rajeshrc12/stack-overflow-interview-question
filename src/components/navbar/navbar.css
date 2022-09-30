@@ -1,0 +1,73 @@
+.navbar_container{
+    height: 5vh;
+    padding: 1rem;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+.logo{
+    height: 100%;
+}
+img{
+    height: 100%;
+}
+input{
+    height: 100%;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    padding-left: 2rem;
+    width: 100%; 
+     box-sizing: border-box;
+     -webkit-box-sizing:border-box;
+     -moz-box-sizing: border-box;
+}
+input:focus{
+    outline: none;
+}
+.search_bar{
+    flex-grow: 1;
+    margin-left: 1rem;
+    position: relative;
+}
+.search_icon{
+    position: absolute;
+    top: .5rem;
+    left: .4rem;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    margin: 0 1rem 0 1rem;
+}
+.popup-content {
+    margin: auto;
+    background: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+  }
+  .popup-arrow {
+    color: rgb(255, 255, 255);
+  }
+  [role='tooltip'].popup-content {
+    width: 200px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 3px;
+  }
+  
+  .popup-overlay {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  [data-popup='tooltip'].popup-overlay {
+    background: transparent;
+  }
+  .person{
+    background-color: white;
+    border: none;
+  }
+  .person_image{
+    border-radius: 100%;
+    cursor: pointer;
+  }
