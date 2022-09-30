@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/stack-overflow-interview-question/static/css/main.e4d4a0da.css",
-    "main.js": "/stack-overflow-interview-question/static/js/main.a6085648.js",
+    "main.css": "/stack-overflow-interview-question/static/css/main.fe64a40d.css",
+    "main.js": "/stack-overflow-interview-question/static/js/main.bb9c6530.js",
     "index.html": "/stack-overflow-interview-question/index.html",
-    "main.e4d4a0da.css.map": "/stack-overflow-interview-question/static/css/main.e4d4a0da.css.map",
-    "main.a6085648.js.map": "/stack-overflow-interview-question/static/js/main.a6085648.js.map"
+    "main.fe64a40d.css.map": "/stack-overflow-interview-question/static/css/main.fe64a40d.css.map",
+    "main.bb9c6530.js.map": "/stack-overflow-interview-question/static/js/main.bb9c6530.js.map"
   },
   "entrypoints": [
-    "static/css/main.e4d4a0da.css",
-    "static/js/main.a6085648.js"
+    "static/css/main.fe64a40d.css",
+    "static/js/main.bb9c6530.js"
   ]
 }
